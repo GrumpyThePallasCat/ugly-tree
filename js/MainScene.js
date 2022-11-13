@@ -5,10 +5,10 @@ export default class MainScene extends Phaser.Scene {
 
     preload(){
         console.log("preload");
-        this.load.setBaseURL('https://labs.phaser.io');
+        // this.load.setBaseURL('https://labs.phaser.io');
 
         this.load.image('sky', 'assets/skies/spooky.png');
-        this.load.image('logo', 'assets/sprites/phaser3-logo.png');
+        this.load.image('logo', 'assets/sprites/star.png');
         this.load.image('red', 'assets/particles/leaf1.png');
     }
 
